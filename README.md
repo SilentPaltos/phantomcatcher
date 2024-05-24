@@ -1,13 +1,16 @@
 ![Dreamcatcher](https://cdn.modrinth.com/data/cached_images/90b7c7901ec817ae40354b1cd08b8004254ab2d1.png)
-# Dreamcatcher
+# Phantomcatcher
 Data pack for Minecraft **Java Edition**\
 Version of Minecraft **1.20.3-1.20.4**
-## Description
-Dreamcatcher allows you to protect some area from phantom spawning.\
+Phantoamcatcher allows you to protect some area from phantom spawning.\
 May be useful on servers.
 
 ### Craft
-Drop 4 Sticks, 3 Feathers and 1 Phantom Membrane on crafting table and all off these items will turn into a Dreamcatcher
+<summary>Spoiler</summary>
+
+![Craft](https://cdn.modrinth.com/data/aJR2iLDU/images/8f4dd436a76b41698e6443260cf347ff34258892.png)
+
+</details>
 
 ### Commands
 ```/function give:dreamcatcher/dreamcatcher``` gives default Dreamcatcher\
