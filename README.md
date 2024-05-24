@@ -15,11 +15,11 @@ Download file and use it as resource and data pack.
 ![Craft](https://cdn.modrinth.com/data/aJR2iLDU/images/8f4dd436a76b41698e6443260cf347ff34258892.png)
 
 ### Commands
-```/function give:phantomcatcher/phantomcatcher``` gives default Phantomcatcher\
-```/function give:phantomcatcher/phantomcatcher/charge_1``` gives Phantomcatcher with 1/3 charge\
-```/function give:phantomcatcher/phantomcatcher/charge_2``` gives Phantomcatcher with 2/3 charge\
-```/function give:phantomcatcher/phantomcatcher/charge_3``` gives Phantomcatcher with 3/3 charge\
-```/function give:phantomcatcher/phantom_spawn_egg``` gives Spawn Egg of Phantom, which protected from Phantomcatcher
+- ```/function give:phantomcatcher/phantomcatcher``` gives default Phantomcatcher\
+- ```/function give:phantomcatcher/phantomcatcher/charge_1``` gives Phantomcatcher with 1/3 charge\
+- ```/function give:phantomcatcher/phantomcatcher/charge_2``` gives Phantomcatcher with 2/3 charge\
+- ```/function give:phantomcatcher/phantomcatcher/charge_3``` gives Phantomcatcher with 3/3 charge\
+- ```/function give:phantomcatcher/phantom_spawn_egg``` gives Spawn Egg of Phantom, which protected from Phantomcatcher
 
 ### Config
 There is also config file and manual for it inside the Pack.
