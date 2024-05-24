@@ -4,6 +4,8 @@ Datapack for Minecraft **Java Edition**\
 Version of Minecraft: **1.21**\
 Phantomcatcher allows you to protect some area from phantom spawning.
 
+![Craft](https://cdn.modrinth.com/data/aJR2iLDU/images/8f4dd436a76b41698e6443260cf347ff34258892.png)
+
 # Installation
 Download file and use it as resource and data pack.
 
@@ -11,8 +13,6 @@ Download file and use it as resource and data pack.
 - English (US)
 - Русскiй дореформенный (Россiйская имперiя)
 - Русский (Россия)
-
-![Craft](https://cdn.modrinth.com/data/aJR2iLDU/images/8f4dd436a76b41698e6443260cf347ff34258892.png)
 
 ### Commands
 - ```/function give:phantomcatcher/phantomcatcher``` gives default Phantomcatcher\
@@ -23,4 +23,7 @@ Download file and use it as resource and data pack.
 - ```/function phantomcatcher:info``` shows information about datapack
 
 ### Config
-There is also config file and manual for it inside the Pack.
+There is also config file and manual for it in the Pack.
+You can configure:
+- Size of catching area
+- Charge time
