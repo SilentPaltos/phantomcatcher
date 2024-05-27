@@ -15,12 +15,12 @@ Download file and use it as resource and data pack.
 - Русский (Россия)
 
 ### Commands
-- ```/function give:phantomcatcher/phantomcatcher``` gives default Phantomcatcher\
-- ```/function give:phantomcatcher/phantomcatcher/charge_1``` gives Phantomcatcher with 1/3 charge\
-- ```/function give:phantomcatcher/phantomcatcher/charge_2``` gives Phantomcatcher with 2/3 charge\
-- ```/function give:phantomcatcher/phantomcatcher/charge_3``` gives Phantomcatcher with 3/3 charge\
-- ```/function give:phantomcatcher/phantom_spawn_egg``` gives Spawn Egg of Phantom, which protected from Phantomcatcher\
-- ```/function phantomcatcher:info``` shows information about datapack
+- ```/function give:phantomcatcher/phantomcatcher``` – gives default Phantomcatcher\
+- ```/function give:phantomcatcher/phantomcatcher/charge_1``` – gives Phantomcatcher with 1/3 charge\
+- ```/function give:phantomcatcher/phantomcatcher/charge_2``` – gives Phantomcatcher with 2/3 charge\
+- ```/function give:phantomcatcher/phantomcatcher/charge_3``` – gives Phantomcatcher with 3/3 charge\
+- ```/function give:phantomcatcher/phantom_spawn_egg``` – gives Spawn Egg of Phantom, which protected from Phantomcatcher\
+- ```/function phantomcatcher:info``` – shows information about datapack
 
 ### Config
 There is also config file and manual for it in the Pack.
