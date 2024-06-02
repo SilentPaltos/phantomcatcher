@@ -4,7 +4,24 @@ Datapack for Minecraft **Java Edition**\
 Version of Minecraft: **24w21a–24w21b**\
 Phantomcatcher allows you to protect some area from phantom spawning.
 
-![Craft](https://cdn.modrinth.com/data/aJR2iLDU/images/8f4dd436a76b41698e6443260cf347ff34258892.png)
+<details>
+<summary>Crafting recipe</summary>
+
+![Crafting recipe](https://cdn.modrinth.com/data/aJR2iLDU/images/8f4dd436a76b41698e6443260cf347ff34258892.png)
+
+</details>
+
+<details>
+<summary>Commands</summary>
+
+- ```/function give:phantomcatcher/phantomcatcher``` gives default Phantomcatcher\
+- ```/function give:phantomcatcher/phantomcatcher/charge_1``` gives Phantomcatcher with 1/3 charge\
+- ```/function give:phantomcatcher/phantomcatcher/charge_2``` gives Phantomcatcher with 2/3 charge\
+- ```/function give:phantomcatcher/phantomcatcher/charge_3``` gives Phantomcatcher with 3/3 charge\
+- ```/function give:phantomcatcher/phantom_spawn_egg``` gives Spawn Egg of Phantom, which protected from Phantomcatcher\
+- ```/function phantomcatcher:info``` shows information about datapack
+
+</details>
 
 # Installation
 Download file and use it as resource and data pack.
@@ -14,13 +31,6 @@ Download file and use it as resource and data pack.
 - Русскiй дореформенный (Россiйская имперiя)
 - Русский (Россия)
 
-### Commands
-- ```/function give:phantomcatcher/phantomcatcher``` – gives default Phantomcatcher\
-- ```/function give:phantomcatcher/phantomcatcher/charge_1``` – gives Phantomcatcher with 1/3 charge\
-- ```/function give:phantomcatcher/phantomcatcher/charge_2``` – gives Phantomcatcher with 2/3 charge\
-- ```/function give:phantomcatcher/phantomcatcher/charge_3``` – gives Phantomcatcher with 3/3 charge\
-- ```/function give:phantomcatcher/phantom_spawn_egg``` – gives Spawn Egg of Phantom, which protected from Phantomcatcher\
-- ```/function phantomcatcher:info``` – shows information about datapack
 
 ### Config
 There is also config file and manual for it in the Pack.
