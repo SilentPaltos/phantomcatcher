@@ -1,7 +1,7 @@
 ![Phantomcatcher](https://cdn.modrinth.com/data/cached_images/410e06fc1637cb99ae559026642c1ce1bf177b08.png)
 # Phantomcatcher
 Datapack for Minecraft **Java Edition**\
-Version of Minecraft: **24w21a–24w21b**\
+Version of Minecraft: **24w21a–24w21b, 1.21-pre3**\
 Phantomcatcher allows you to protect some area from phantom spawning.
 
 <details>
