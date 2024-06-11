@@ -1,0 +1,27 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:item_name": "{ \"translate\":\"item.phantomcatcher.phantomcatcher\" }",
+                "minecraft:lore": [ "{ \"translate\": \"item_lore.phantomcatcher.charge_3\", \"color\": \"gray\", \"italic\": false }"],
+                "minecraft:entity_data": "{ id: \"item_frame\", Invisible: 1b, Silent: 1b, Fixed: 1b, Tags: [ \"phantomcatcher.entity.phantomcatcher_placer\" ], Item: { id: \"knowledge_book\", count: 1, components: {\"minecraft:custom_model_data\": 500000, \"minecraft:custom_data\": { phantomcatcher: { charge: 3, is_charged: true, is_ticking: false } } } } }",
+                "minecraft:custom_model_data": 500000,
+                "minecraft:custom_data": "{ phantomcatcher: { id: \"phantomcatcher\" } }"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

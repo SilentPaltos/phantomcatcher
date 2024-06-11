@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 45,
+    "supported_formats": [
+      34,
+      45
+    ],
+    "description": {
+      "translate": "pack.phantomcatcher.description",
+      "fallback": "Way to protect yourself from phantom spawning"
+    }
+  }
+}
