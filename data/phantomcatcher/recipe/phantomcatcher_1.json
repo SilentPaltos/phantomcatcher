@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "fls",
+    "lol",
+    "flf"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:string"
+    },
+    "l": {
+      "item": "minecraft:stick"
+    },
+    "o": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "f": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+      "minecraft:item_name": "{ \"translate\":\"item.phantomcatcher.phantomcatcher\" }",
+      "minecraft:entity_data": { 
+        "id": "item_frame", 
+        "Invisible": true, 
+        "Silent": true, 
+        "Fixed": true, 
+        "Tags": [ "phantomcatcher.entity.phantomcatcher_placer" ], 
+        "Item": { 
+          "id": "knowledge_book", 
+          "count": 1, 
+          "components": { 
+            "minecraft:custom_model_data": 500000, 
+            "minecraft:custom_data": { 
+              "phantomcatcher": { 
+                "charge": 0, 
+                "is_charged": false, 
+                "is_ticking": true 
+              } 
+            } 
+          } 
+        } 
+      },
+      "minecraft:custom_model_data": 500000,
+      "minecraft:custom_data": "{ phantomcatcher: { id: \"phantomcatcher\" } }"
+    }
+  }
+}
