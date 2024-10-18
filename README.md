@@ -113,7 +113,7 @@ Entity Tags
 
 <summary>Fonts</summary>
 
-Pack also add new font: ```phantomcatcher:emoji```
+Pack also adds new font: ```phantomcatcher:emoji```
 
 Available emojies:
 - ```{"translate":"emoji.phantomcatcher.phantomcatcher","font":"phantomcatcher:emoji"}```
