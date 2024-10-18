@@ -77,7 +77,7 @@ Phantomcatcher works on a limited area 5x5 chunks around it. (Chunk-aligned)
   
 ### Info
 
-- ```/function phantomcatcher:info``` shows info about datapack
+- ```/function info:phantomcatcher``` shows info about datapack
 
 ### Give
 
