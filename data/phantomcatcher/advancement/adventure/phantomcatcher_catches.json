@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": { "minecraft:item_model": "phantomcatcher:phantomcatcher" }
+    },
+    "title": { "translate": "advancements.adventure.phantomcatcher_catches.title" },
+    "description": { "translate": "advancements.adventure.phantomcatcher_catches.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
