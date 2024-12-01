@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "get_phantom_membrane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:phantom_membrane"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "phantomcatcher:phantomcatcher_1",
+      "phantomcatcher:phantomcatcher_2"
+    ]
+  },
+  "sends_telemetry_event": false
+}
