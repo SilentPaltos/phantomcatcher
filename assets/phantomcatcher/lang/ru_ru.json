@@ -1,0 +1,21 @@
+{
+    "pack.phantomcatcher.info": "\n%s %s\n\n%s\n%s\n",
+    "pack.phantomcatcher.name": "Phantomcatcher",
+    "pack.phantomcatcher.description": "Способ защититься от появления фантомов",
+    "pack.phantomcatcher.author": "Автор: %s",
+    "pack.phantomcatcher.version": "Версия: %s",
+    "pack.phantomcatcher.get_links": "Ссылки",
+    "pack.phantomcatcher.links": "\n[%s] [%s] [%s]\n",
+    "pack.phantomcatcher.link_github": "GitHub",
+    "pack.phantomcatcher.link_modrinth": "Modrinth",
+    "pack.phantomcatcher.link_planetminecraft": "PlanetMinecraft",
+
+    "item.phantomcatcher.phantomcatcher": "Ловец фантомов",
+    "item_lore.phantomcatcher.charge": "Заряд: %s / %s",
+    "item_lore.phantomcatcher.protected_from_phantomcatcher": "Защищён от ловца фантомов",
+
+    "advancements.adventure.phantomcatcher_catches.title": "Спокойная ночь",
+    "advancements.adventure.phantomcatcher_catches.description": "Будьте рядом с ловцом фантомов, когда он ловит",
+
+    "emoji.phantomcatcher.phantomcatcher": "1"
+}
