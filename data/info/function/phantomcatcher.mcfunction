@@ -31,7 +31,7 @@
                         "color": "yellow", \
                         "with": [ \
                             { \
-                                "text": "Alpha 0.1.4", \
+                                "text": "Alpha 0.1.4_01", \
                                 "color": "green" \
                             } \
                         ] \
