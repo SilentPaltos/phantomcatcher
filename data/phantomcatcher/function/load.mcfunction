@@ -1,8 +1,10 @@
 
-    # Обновление конфигурации
-    function phantomcatcher:config
+    # Config reset
+    execute \
+        if data storage minecraft:phantomcatcher { reset_on_load: true } \
+        run function phantomcatcher:config
 
-    # Обновление данных из конфигурации
+    # Config Update
     scoreboard objectives add phantomcatcher.config dummy
     function phantomcatcher:load/update_config
 

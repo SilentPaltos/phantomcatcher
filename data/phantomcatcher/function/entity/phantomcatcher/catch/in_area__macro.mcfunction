@@ -10,13 +10,13 @@
         positioned $(x) -64 $(z) \
         positioned ~$(d_start) -64 ~$(d_start) \
         align xyz \
-    run \
-        tag @e[ \
-            predicate = phantomcatcher:entity/catchable, \
-            tag =! phantomcatcher.entity.catchable.protected, \
-            dx = $(diagonal), dy = 400, dz = $(diagonal) \
-        ] \
-            add phantomcatcher.entity.catchable.catched
+        run \
+            tag @e[ \
+                predicate = phantomcatcher:entity/catchable, \
+                tag =! phantomcatcher.entity.catchable.protected, \
+                dx = $(diagonal), dy = 400, dz = $(diagonal) \
+            ] \
+                add phantomcatcher.entity.catchable.catched
 
     # Обратная связь на каждую сущность с тегом вплоть до 100
     execute \
@@ -31,7 +31,7 @@
             predicate = phantomcatcher:entity/phantomcatcher/got_charge/3, \
             predicate = phantomcatcher:entity/ticking \
         ] \
-    run function phantomcatcher:entity/phantomcatcher/catch/feedback
+        run function phantomcatcher:entity/phantomcatcher/catch/feedback
 
     # Поимка сущностей с тегом
     execute \
@@ -39,4 +39,4 @@
             type = #phantomcatcher:catchable, \
             tag = phantomcatcher.entity.catchable.catched \
         ] \
-    run function phantomcatcher:entity/catchable/get_catched
+        run function phantomcatcher:entity/catchable/get_catched

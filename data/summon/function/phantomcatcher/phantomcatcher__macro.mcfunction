@@ -47,8 +47,7 @@
                     tag = phantomcatcher.this \
                 ] \
                     phantomcatcher.charge_time \
-            run \
-                data get storage phantomcatcher running_function.scores.charge
+                run data get storage phantomcatcher running_function.scores.charge
             
             scoreboard players operation @e[ \
                 type = interaction, \
@@ -61,16 +60,14 @@
                     type = interaction, \
                     tag = phantomcatcher.this \
                 ] \
-            run \
-                function phantomcatcher:entity/phantomcatcher/got_charge
+                run function phantomcatcher:entity/phantomcatcher/got_charge
     
             execute \
                 store result score @e[ \
                     type = interaction, \
                     tag = phantomcatcher.this \
                 ] phantomcatcher.is_charged \
-            run \
-                data get storage phantomcatcher running_function.scores.is_charged
+                run data get storage phantomcatcher running_function.scores.is_charged
 
             execute \
                 store result score @e[ \
@@ -78,8 +75,7 @@
                     tag = phantomcatcher.this \
                 ] \
                     phantomcatcher.is_ticking \
-            run \
-                data get storage phantomcatcher running_function.scores.is_ticking
+                run data get storage phantomcatcher running_function.scores.is_ticking
 
         data remove storage phantomcatcher running_function
 

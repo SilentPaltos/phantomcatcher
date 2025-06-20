@@ -1,0 +1,77 @@
+{
+    "type": "confirmation",
+    "pause": true,
+    "after_action": "close",
+    "can_close_with_escape": true,
+    "title": { 
+        "translate": "options.phantomcatcher.settings.title", 
+        "color": "yellow", 
+        "bold": true 
+    },
+    "inputs": [
+        {
+            "key": "charge_period",
+            "type": "number_range",
+            "label": { "translate": "options.phantomcatcher.charge_period" },
+            "label_format": "options.phantomcatcher.days",
+            "start": 0, "initial": 1, "end": 10,
+            "step": 1,
+            "width": 200
+        },
+        {
+            "key": "catch_square_size",
+            "type": "number_range",
+            "label": { "translate": "options.phantomcatcher.catching_area" },
+            "label_format": "options.phantomcatcher.chunks",
+            "start": 0, "initial": 3, "end": 10,
+            "step": 1,
+            "width": 200
+        },
+        {
+            "key": "catch_renamed_catchables",
+            "type": "single_option",
+            "label": { "translate": "options.phantomcatcher.catch_renamed_entities" },
+            "options": [
+                {
+                    "id": "false",
+                    "display": { "translate": "options.off" },
+                    "initial": true
+                },
+                {
+                    "id": "true",
+                    "display": { "translate": "options.on" },
+                    "initial": false
+                }
+            ],
+            "width": 200
+        },
+        {
+            "key": "reset_on_load",
+            "type": "single_option",
+            "label": { "translate": "options.phantomcatcher.reset_on_load" },
+            "options": [
+                {
+                    "id": "false",
+                    "display": { "translate": "options.off" },
+                    "initial": false
+                },
+                {
+                    "id": "true",
+                    "display": { "translate": "options.on" },
+                    "initial": true
+                }
+            ],
+            "width": 200
+        }
+    ],
+    "yes": {
+            "label": { "translate": "gui.phantomcatcher.apply" },
+            "action": {
+                "type": "dynamic/run_command",
+                "template": "function phantomcatcher:dialog/config/apply { charge_period: $(charge_period),catch_square_size: $(catch_square_size), catch_renamed_catchables: $(catch_renamed_catchables), reset_on_load: $(reset_on_load) }"
+            }
+        },
+    "no": {
+            "label": { "translate": "gui.cancel" }
+        }
+}

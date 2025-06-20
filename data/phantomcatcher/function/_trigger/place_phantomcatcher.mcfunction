@@ -5,7 +5,7 @@
     # Попытка установить ловец
     execute \
         positioned as @e[ predicate = phantomcatcher:_entity/phantomcatcher_placer ] \
-    run function phantomcatcher:_entity/phantomcatcher_placer/place/try
+        run function phantomcatcher:_entity/phantomcatcher_placer/place/try
 
     # Уничтожение промежуточной сущности
     kill @e[ predicate = phantomcatcher:_entity/phantomcatcher_placer ]

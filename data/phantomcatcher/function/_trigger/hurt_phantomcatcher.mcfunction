@@ -10,7 +10,7 @@
             predicate = phantomcatcher:entity/phantomcatcher/hurted \
         ] \
         positioned as @s \
-    run function phantomcatcher:entity/phantomcatcher/mine
+        run function phantomcatcher:entity/phantomcatcher/mine
 
     # Если игрок в креативе, ловец уничтожается без дропа
     execute \
@@ -20,4 +20,4 @@
             predicate = phantomcatcher:entity/phantomcatcher/hurted \
         ] \
         positioned as @s \
-    run function phantomcatcher:entity/phantomcatcher/kill
+        run function phantomcatcher:entity/phantomcatcher/kill

@@ -12,7 +12,12 @@
           {
             "function": "minecraft:set_components",
             "components": {
-                "minecraft:lore": [ "{ \"translate\": \"item_lore.phantomcatcher.protected_from_phantomcatcher\", \"color\": \"gray\", \"italic\": false }"],
+                "minecraft:lore": [ 
+                  { 
+                    "translate": "item_lore.phantomcatcher.protected_from_phantomcatcher", 
+                    "color": "gray", "italic": false 
+                  }
+                ],
                 "minecraft:entity_data": { 
                   "id": "phantom", 
                   "Tags": [ "phantomcatcher.phantom.protected" ] 

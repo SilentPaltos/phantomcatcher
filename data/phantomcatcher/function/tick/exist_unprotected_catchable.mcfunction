@@ -6,7 +6,7 @@
             tag =! phantomcatcher.entity.catchable.protected, \
             limit = 1 \
         ] \
-    run return 1
+        run return 1
 
     # Незащищённых или непойманных сущностей нет
     return 0

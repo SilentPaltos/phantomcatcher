@@ -1,0 +1,84 @@
+{
+    "type": "multi_action",
+    "pause": true,
+    "after_action": "close",
+    "can_close_with_escape": true,
+    "title": { 
+        "translate": "options.phantomcatcher.title", 
+        "color": "yellow", 
+        "bold": true 
+    },
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": [
+                "\n",
+                {
+                    "translate": "emoji.phantomcatcher.phantomcatcher",
+                    "font": "phantomcatcher:emoji",
+                    "shadow_color": [0,0,0,0]
+                },
+                " ",
+                {
+                    "translate": "pack.phantomcatcher.name",
+                    "color": "red"
+                },
+                "\n\n",
+                { "translate": "pack.phantomcatcher.description" },
+                "\n\n",
+                {
+                    "translate": "pack.phantomcatcher.version",
+                    "color": "yellow",
+                    "with": [ { "text": "Alpha 1.0.0", "color": "green" } ]
+                },
+                "\n",
+                {
+                    "translate": "pack.phantomcatcher.author",
+                    "color": "yellow",
+                    "with": [ { "text": "SilentPaltos", "color": "green" } ]
+                },
+                "\n\n\n"
+            ]
+        }
+    ],
+    "columns": 3,
+    "actions": [
+        {
+            "label": "Modrinth",
+            "width": 100,
+            "action": {
+                "type": "open_url",
+                "url": "https://modrinth.com/project/phantomcatcher"
+            }
+        },
+        {
+            "label": "PlanetMinecraft",
+            "width": 100,
+            "action": {
+                "type": "open_url",
+                "url": "https://www.planetminecraft.com/data-pack/phantomcatcher"
+            }
+        },
+        {
+            "label": "GitHub",
+            "width": 100,
+            "action": {
+                "type": "open_url",
+                "url": "https://github.com/SilentPaltos/phantomcatcher"
+            }
+        },
+        {
+            "label": { "translate": "options.phantomcatcher.settings.external_title" },
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "function phantomcatcher:config"
+            }
+        }
+    ],
+    "external_title": { "translate": "options.phantomcatcher.title" },
+    "exit_action": {
+        "label": { "translate": "gui.ok" }
+
+    }
+}
