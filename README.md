@@ -77,15 +77,8 @@ Phantomcatcher works on a limited area 5x5 chunks around it. (Chunk-aligned)
   
 ### Info
 
-- ```/function info:phantomcatcher``` shows info about datapack
-
-### Give
-
-- ```/function give:phantomcatcher/phantomcatcher``` gives default Phantomcatcher
-- ```/function give:phantomcatcher/phantomcatcher/charge_1``` gives Phantomcatcher with 1/3 charge
-- ```/function give:phantomcatcher/phantomcatcher/charge_2``` gives Phantomcatcher with 2/3 charge
-- ```/function give:phantomcatcher/phantomcatcher/charge_3``` gives Phantomcatcher with 3/3 charge
-- ```/function give:phantomcatcher/phantom_spawn_egg``` gives Spawn Egg of Phantom, which protected from Phantomcatcher
+- ```/function give:phantomcatcher/...``` allows you to get any item from the datapack
+- ```/function phantomcatcher:config``` opens datapack config in game
 
 </details>
 
