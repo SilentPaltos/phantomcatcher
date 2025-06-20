@@ -1,14 +1,18 @@
 {
+    "emoji.phantomcatcher.phantomcatcher": "1",
+    
     "pack.phantomcatcher.info": "\n%s %s\n\n%s\n%s\n",
+    "pack.phantomcatcher.links": "\n[%s] [%s] [%s]\n",
+
     "pack.phantomcatcher.name": "Phantomcatcher",
+    "pack.phantomcatcher.link_github": "GitHub",
+    "pack.phantomcatcher.link_modrinth": "Modrinth",
+    "pack.phantomcatcher.link_planetminecraft": "PlanetMinecraft",
+
     "pack.phantomcatcher.description": "Way to protect yourself from phantom spawning",
     "pack.phantomcatcher.author": "Author: %s",
     "pack.phantomcatcher.version": "Version: %s",
     "pack.phantomcatcher.get_links": "Get Links",
-    "pack.phantomcatcher.links": "\n[%s] [%s] [%s]\n",
-    "pack.phantomcatcher.link_github": "GitHub",
-    "pack.phantomcatcher.link_modrinth": "Modrinth",
-    "pack.phantomcatcher.link_planetminecraft": "PlanetMinecraft",
 
     "item.phantomcatcher.phantomcatcher": "Phantomcatcher",
     "item_lore.phantomcatcher.charge": "Charge: %s / %s",
@@ -16,6 +20,15 @@
 
     "advancements.adventure.phantomcatcher_catches.title": "The City That Never Sleeps",
     "advancements.adventure.phantomcatcher_catches.description": "Be near a Phantomcatcher when it catches",
-
-    "emoji.phantomcatcher.phantomcatcher": "1"
+    
+    "options.phantomcatcher.title": "Phantomcatcher",
+    "options.phantomcatcher.settings.title": "Phantomcatcher Settings",
+    "options.phantomcatcher.settings.external_title": "Settings...",
+    "options.phantomcatcher.days": "%s: %s day(s)",
+    "options.phantomcatcher.chunks": "%s: %s chunk(s)",
+    "options.phantomcatcher.charge_period": "Charge Period",
+    "options.phantomcatcher.catching_area": "Catching Area",
+    "options.phantomcatcher.catch_renamed_entities": "Catch Named Entities",
+    "options.phantomcatcher.reset_on_load": "Reset On Load",
+    "gui.phantomcatcher.apply": "Apply"
 }

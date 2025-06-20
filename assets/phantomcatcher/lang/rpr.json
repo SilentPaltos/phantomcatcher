@@ -1,14 +1,16 @@
 {
     "pack.phantomcatcher.info": "\n%s %s\n\n%s\n%s\n",
+    "pack.phantomcatcher.links": "\n[%s] [%s] [%s]\n",
+
     "pack.phantomcatcher.name": "Phantomcatcher",
+    "pack.phantomcatcher.link_github": "GitHub",
+    "pack.phantomcatcher.link_modrinth": "Modrinth",
+    "pack.phantomcatcher.link_planetminecraft": "PlanetMinecraft",
+
     "pack.phantomcatcher.description": "Способъ защититься отъ появленiя фантомовъ",
     "pack.phantomcatcher.author": "Авторъ: %s",
     "pack.phantomcatcher.version": "Версiя: %s",
     "pack.phantomcatcher.get_links": "Ссылки",
-    "pack.phantomcatcher.links": "\n[%s] [%s] [%s]\n",
-    "pack.phantomcatcher.link_github": "GitHub",
-    "pack.phantomcatcher.link_modrinth": "Modrinth",
-    "pack.phantomcatcher.link_planetminecraft": "PlanetMinecraft",
 
     "item.phantomcatcher.phantomcatcher": "Ловецъ фантомовъ",
     "item_lore.phantomcatcher.charge": "Зарядъ: %s / %s",
@@ -16,6 +18,15 @@
 
     "advancements.adventure.phantomcatcher_catches.title": "Я не сплю - не спится",
     "advancements.adventure.phantomcatcher_catches.description": "Будьте рядомъ съ ловцомъ фантомовъ, когда онъ ловитъ",
-
-    "emoji.phantomcatcher.phantomcatcher": "1"
+    
+    "options.phantomcatcher.title": "Phantomcatcher",
+    "options.phantomcatcher.settings.title": "Настройки Phantomcatcher",
+    "options.phantomcatcher.settings.external_title": "Настройки...",
+    "options.phantomcatcher.days": "%s: %s дн.",
+    "options.phantomcatcher.chunks": "%s: %s участковъ",
+    "options.phantomcatcher.charge_period": "Перiодъ зарядки",
+    "options.phantomcatcher.catching_area": "Область ловли",
+    "options.phantomcatcher.catch_renamed_entities": "Ловить сущности съ именемъ",
+    "options.phantomcatcher.reset_on_load": "Сбрасывать при загрузкѣ",
+    "gui.phantomcatcher.apply": "Примѣнить"
 }
